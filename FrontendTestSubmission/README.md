@@ -6,14 +6,6 @@ This project is divided into two main parts:
 - **Frontend**: `url-shortener-client` (React.js + MUI)
 - **Backend**: `url-shortener-server` (Node.js + Express + MongoDB)
 
----
-
-##  Live Demo
-
- Test the app here:  
- [https://fanciful-tarsier-e4ba42.netlify.app/](https://fanciful-tarsier-e4ba42.netlify.app/)
-
----
 
 ##  Tech Stack
 
