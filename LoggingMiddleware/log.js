@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_URL = "http://20.244.56.144/evaluation-service/logs";
-const TOKEN = "<QAhDUr>"; // Replace with real token
+const TOKEN = "<QAhDUr>"; 
 
 const Log = async (stack, level, pkg, message) => {
   try {
