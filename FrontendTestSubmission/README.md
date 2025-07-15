@@ -28,56 +28,6 @@ URL-Shortener/
 
 ````
 
----
-
-##  How to Clone and Run Locally
-
-###  Clone the repository
-
-```bash
-git clone https://github.com/BhanuPrakashPandey0843/URL-Shortener.git
-cd URL-Shortener
-````
-
----
-
-###  Setup the Backend
-
-```bash
-cd url-shortener-server
-npm install
-```
-
-Create a `.env` file inside `url-shortener-server/`:
-
-```env
-MONGO_URI=your_mongodb_connection_string
-PORT=5000
-BASE_URL=http://localhost:5000
-```
-
-Run the backend server:
-
-```bash
-npm run dev
-```
-
-It will be available at: `http://localhost:5000`
-
----
-
-###  Setup the Frontend
-
-```bash
-cd ../url-shortener-client
-npm install
-npm start
-```
-
-Your app will run at: `http://localhost:3000`
-
----
-
 ## ✨ Key Features
 
 *  Shorten any URL with just a click
@@ -104,7 +54,6 @@ Your app will run at: `http://localhost:3000`
 
 Feel free to contribute, suggest improvements, or fork the project to make it your own!
 
----
 
 ** Developed by:** yogyatanegi 
 
