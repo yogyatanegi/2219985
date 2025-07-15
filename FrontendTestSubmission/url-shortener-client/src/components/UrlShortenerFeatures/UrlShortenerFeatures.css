@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+.features-section {
+  background-color: #0f0f11;
+  color: #ffffff;
+  padding: 4rem 2rem;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.features-header h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.features-header p {
+  color: #aaa;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.8rem;
+}
+
+.feature-card {
+  background-color: #1a1a1e;
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+  text-align: left;
+  border: 1px solid transparent;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  position: relative;
+}
+
+.feature-card:hover {
+  border: 1px solid #2f80ed;
+  box-shadow: 0 0 20px rgba(47, 128, 237, 0.2);
+  background-color: #1e1e22;
+}
+
+.feature-icon {
+  background-color: #2f80ed22;
+  color: #2f80ed;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  display: inline-flex;
+  margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+.feature-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #c3c3c3;
+}

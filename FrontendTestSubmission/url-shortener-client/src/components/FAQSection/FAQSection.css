@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap");
+
+.faq-section {
+  background-color: #0f0f11;
+  padding: 6rem 1.5rem;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.faq-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+/* Image Section */
+.faq-image img {
+  width: 100%;
+  max-width: 650px;
+  border-radius: 24px;
+  object-fit: cover;
+  box-shadow: 0 0 35px rgba(0, 198, 255, 0.25);
+  transition: transform 0.4s ease;
+}
+
+.faq-image img:hover {
+  transform: scale(1.02);
+}
+
+/* FAQ Section */
+.faq-content {
+  flex: 1;
+  min-width: 320px;
+  max-width: 640px;
+}
+
+.faq-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+}
+
+.faq-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #4facfe;
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.faq-item {
+  background: #18181c;
+  border-radius: 14px;
+  border: 1px solid rgba(79, 172, 254, 0.1);
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(79, 172, 254, 0.05);
+  transition: 0.3s ease;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1.05rem;
+  color: #eaeaea;
+  background-color: transparent;
+  transition: background 0.3s;
+}
+
+.faq-question:hover {
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+.faq-icon {
+  transition: transform 0.3s ease;
+  color: #4facfe;
+}
+
+.faq-icon.rotate {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  padding: 0 1.5rem 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #bcbcbc;
+}
+
+@media screen and (max-width: 900px) {
+  .faq-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .faq-content {
+    max-width: 100%;
+  }
+
+  .faq-title {
+    text-align: center;
+  }
+
+  .faq-image img {
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap");
+
+.footer {
+  background-color: #0f0f11;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  padding: 3rem 2rem 1rem;
+  border-top: 1px solid #222;
+}
+
+/* Top Row */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  border-bottom: 1px solid #222;
+  padding-bottom: 2rem;
+}
+
+.footer-brand h2 {
+  font-size: 2rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.footer-brand .ai {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-tagline {
+  flex: 1;
+  text-align: center;
+  color: #aaa;
+  font-size: 1rem;
+}
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+.footer-socials svg {
+  cursor: pointer;
+  transition: 0.3s;
+  color: #aaa;
+}
+.footer-socials svg:hover {
+  color: #00c6ff;
+}
+
+/* Divider */
+.footer-divider {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 2rem 0;
+}
+
+/* Columns */
+.footer-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+.footer-col h4 {
+  color: #2f80ed;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.footer-col p {
+  color: #aaa;
+  margin-bottom: 1rem;
+}
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-col ul li {
+  color: #ccc;
+  margin-bottom: 0.6rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.footer-col ul li:hover {
+  color: #fff;
+}
+
+/* Subscribe Box */
+.subscribe-box {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.subscribe-box input {
+  padding: 0.6rem;
+  border: 1px solid #333;
+  background: transparent;
+  color: #fff;
+  border-radius: 5px;
+  flex: 1;
+}
+.subscribe-box input::placeholder {
+  color: #777;
+}
+.subscribe-box button {
+  padding: 0.6rem 1.2rem;
+  background-color: #2f80ed;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.subscribe-box button:hover {
+  background-color: #0072ff;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  margin-top: 3rem;
+  text-align: center;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+/* Responsive Tweaks */
+@media screen and (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footer-tagline {
+    text-align: left;
+    margin-top: 1rem;
+  }
+}

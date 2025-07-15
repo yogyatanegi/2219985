@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
+
+.home-section {
+  background: linear-gradient(to right, #f0f7ff, #ffffff);
+  padding: 5rem 1.5rem 6rem;
+  font-family: "Outfit", sans-serif;
+  color: #111;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-subtext {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.form-area {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  margin-bottom: 4rem;
+}
+
+.result-area {
+  background-color: #1a1a1e;
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 1px solid #2f80ed44;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.result-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.result-link-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.8rem 0;
+  border-bottom: 1px dashed #333;
+}
+
+.short-url-link {
+  color: #00c6ff;
+  font-weight: 500;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.short-url-link:hover {
+  text-decoration: underline;
+  color: #ffffff;
+  text-shadow: 0 0 8px rgba(0, 198, 255, 0.4);
+}
+
+.expires-at {
+  color: #888;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
