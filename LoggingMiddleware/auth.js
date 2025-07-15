@@ -1,5 +1,5 @@
-// LoggingMiddleware/auth.js
-const axios = require('axios'); // Install axios using: npm install axios
+
+const axios = require('axios'); 
 
 const authData = {
     email: 'yogyatanegi@gmail.com',
