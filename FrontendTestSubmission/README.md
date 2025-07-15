@@ -114,7 +114,6 @@ Feel free to contribute, suggest improvements, or fork the project to make it yo
 
 ---
 
-** Developed by:** [Bhanu Prakash Pandey](https://github.com/BhanuPrakashPandey0843)
+** Developed by:** yogyatanegi 
 
-[Test it now →](https://fanciful-tarsier-e4ba42.netlify.app/)
 
